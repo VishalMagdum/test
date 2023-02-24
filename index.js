@@ -3,7 +3,7 @@ const { MongoClient, ObjectId } = require('mongodb')
 const mongodb = require('mongodb')
 const app = express()
 app.use(express.json())
-const dbUrl = 'mongodb://127.0.0.1:27017'
+const dbUrl = 'mongodb+srv://vishal:fQkQip0SHY0tbOOB@cluster0.kkulin0.mongodb.net/'
 const client = new MongoClient(dbUrl)
 
 // creating new user account
